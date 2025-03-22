@@ -5,8 +5,9 @@ from PIL import Image
 # 30 levels of gray using ASCII
 ascii_values = '░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓'   
 
+image_name = str(input("Enter the name of the image: "))
 # Opening image and converting it to grayscale.
-image = Image.open('dogs.jpg').convert('L')
+image = Image.open(str(image_name)).convert('L')
 
 # Input for the new width of the image.
 new_width = int(input("Select the width for the image: "))
