@@ -9,4 +9,8 @@ The result is saved as a text file (`ascii-image.txt`) that visually represents 
 
 The script uses 30 levels of shading with `'░▒▓'` characters to create a grayscale gradient.
 
+## 📷 Demo Image
+
+![ASCII Output Example](ascii-image-demo.png)
+
 ---
